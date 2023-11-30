@@ -15,10 +15,13 @@
   font-size: 1.5rem;
   font-weight: 600;
   color: #271F33;
+  
 }
 
 .texto-logo{
   color: white;
+  font-family: 'Kanit', sans-serif; 
+  font-size: 3rem;
 }
 
 .formulario {
