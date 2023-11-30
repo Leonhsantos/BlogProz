@@ -1,0 +1,33 @@
+/* INICIO RODAPE */
+
+.rodape{
+    display: flex;
+    background-color: #A162F5;
+    margin: 0 0 0rem 0;
+    height: 10vh;
+}
+/* INICIO ICONES E LOGO */
+.icones-roda{
+    display: flex;
+    
+    align-items: center;
+    gap: 10rem;
+    font-size: 1.7rem;
+    margin-left: 42rem;
+}
+
+
+    
+
+
+/* FIM INCONES E LOGO */
+
+.copyrite{
+    display: flex;
+    align-items: end;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 30rem;
+}
+
+/* FIM RODAPE */
