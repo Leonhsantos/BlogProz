@@ -1,0 +1,18 @@
+.img-meme-g{
+    width: 48rem;
+    height: 48rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    cursor: pointer;
+    
+  }
+
+
+
+
+.rodape-m{
+    margin-top: 40rem;
+    display: flex;
+    background-color: #a162f5;
+    height: 10vh;
+}

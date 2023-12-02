@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: roboto, Geneva, Tahoma, sans-serif;
-    color: white;
+    
   }
   
   
@@ -16,6 +16,7 @@
     padding: 1.5rem 40px;
     margin: auto;
     opacity: calc(90%);
+    margin-top: 12rem;
   }
   
   h2 {
@@ -49,10 +50,11 @@
     font-size: 1rem;
     align-self: center;
     color: black;
+    border-radius: 1rem;
   }
 
-  /* .rodape-c {
-    margin-top: 5rem;
+   .rodape-c {
+    margin-top: 20rem;
     display: flex;
     background-color: #a162f5;
     height: 10vh;
@@ -64,7 +66,7 @@
     align-items: center;
     gap: 10rem;
     font-size: 1.7rem;
-    margin-left: 42rem;
+    margin-left: 44rem;
   }
   
   /* FIM INCONES E LOGO */

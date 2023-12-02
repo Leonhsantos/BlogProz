@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <script
       src="https://kit.fontawesome.com/d142734101.js"
       crossorigin="anonymous"
@@ -10,36 +11,65 @@
     <title>Login</title>
   </head>
   <body>
-    <!-- Inicio Barra de navegação -->
     <header>
-      <nav>
-        <img
-          src="img/logo.png"
-          alt="Logo da página"
-          style="width: 80px; height: 80px"
-        />
-       
+      <nav class="navigation">
+        <div>
+  
+        </div>
+  
+        <div class="logo">
+          <a href="index.html" class="texto-logo">4F</a>
+        </div>
+        
+        
+        <div class="group">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+          <input placeholder="Busque Aqui!" type="Busque Aqui!" class="input">
+  
+          <div class="usuario">     
+              <i class="fa-solid fa-user usuario-icon"></i>        
+              <a class="login">Login</a>
+          </i></div>     
+        </div>
       </nav>
     </header>
-    <!-- Fim barra de navegação -->
-
-    <!-- Inicio login -->
-    <main>
-      <label for="login">login</label>
-      <input type="text" id="login" name="login">
-
-      <label for="senha">senha</label>
+    <!-- Inicio Barra de navegação -->
+    
+    <form  action="">
+      <h2>Formulário de cadastro</h2>
+      <label for="username">*Username:</label>
+      <input type="text" id="username" name="username" >
+      <p id="username-helper" class="helper-text">Mensagem de ajuda</p> 
+  
+      <label for="senha">*Senha:</label>
       <input type="password" id="senha" name="senha">
-    </main>
+      <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+    
+      
+  
+      <button type="submit">Enviar</button>
+    </form>
       <!-- Fim login -->
   </body>
 
   <!-- Footer inicio -->
-  <footer>
-    <i class="fa-brands fa-instagram"></i>
-
-    <i class="fa-brands fa-tiktok"></i>
-
-    <i class="fa-brands fa-x-twitter"></i>
+  <footer class="rodape-d">
+    <div class="icones-roda">
+      
+      <i class="fa-brands fa-instagram"></i>
+  
+      <i class="fa-brands fa-tiktok"></i>
+  
+      <i class="fa-brands fa-x-twitter"></i>
+    </div>
+    <div class="copyrite">
+      <p>
+        ©2023 4Fun memes
+        
+     </p>
+    </div>
+    <div class="logo-roda">
+      
+    </div>
   </footer>
 </html>

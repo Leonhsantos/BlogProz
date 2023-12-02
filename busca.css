@@ -71,10 +71,20 @@
   margin-left: 23rem;
 }
 
-.perfil {
-  margin-top: 6rem;
+.perfil-b {
+  display: flex;
+  align-items: center;
+  margin-top: 7rem;
+  color: #8875A0;
+ 
 }
 
+.criador-b{
+  display: flex;
+  align-items: center;
+  
+    
+}
 .rodape-b {
   margin-top: 5rem;
   display: flex;

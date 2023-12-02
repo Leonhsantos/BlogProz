@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <script
       src="https://kit.fontawesome.com/d142734101.js"
       crossorigin="anonymous"
@@ -12,65 +13,120 @@
   <body>
     <!-- Inicio Barra de navegação -->
     <header>
-      <nav>
-        <img
-          src="img/logo.png"
-          alt="Logo da página"
-          style="width: 80px; height: 80px"
-        />
-        <form action="">
-          <label for="pesquisa">Pesquisa</label>
-          <input type="search" id="pesquisa" name="Pesquisa" />
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-user"></i>
-        </form>
+      <nav class="navigation">
+        <div>
+
+        </div>
+
+        <div class="logo">
+          <a href="index.html" class="texto-logo">4F</a>
+        </div>
+        
+        
+        <div class="group">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+          <input placeholder="Busque Aqui!" type="Busque Aqui!" class="input">
+
+          <div class="usuario">     
+              <i class="fa-solid fa-user usuario-icon"></i>        
+              <a class="login">Login</a>
+          </i></div>     
+        </div>
       </nav>
     </header>
     <!-- Fim barra de navegação -->
 
     <!-- Inicio Conteudo principal Home -->
-    <main>
-      
-      
-      <div class="meme3">
-        <img src="img/Memes-de-gatinhos-vegano.webp" alt="meme  gatinho vegano" />
-        <!-- Inicio perfil criador -->
-        <div class="Descriçao">
-          <div class="perfil" style="display: flex">
-            <img src="img/perfil2.png" />
-              <a>Pedrinho_Informatica</a>
-              <a>1 nov 2023</a>
-              <i class="fa-regular fa-thumbs-up">42</i>
-              <i class="fa-regular fa-comment">3</i>
-          </div>
-        </div>
-        <!-- fim perfil criador -->
-      </div>
-      <div class="meme4">
+    <main class="main-page">
+      <div class="meme">
         <img
-          src="img/meme-gato3.webp"  alt="meme gato incredulo"/>
+          class="img-meme"
+          src="img/Memes-de-gatinhos-vegano.webp"
+          alt="Meme gato vegano"
+        />
+
         <!-- Inicio perfil criador -->
-        <div class="Descriçao">
+        <div class="descricao">
           <div class="perfil" style="display: flex">
-            <img src="img/perfil2.png" />
-              <a>Pedrinho_Informatica</a>
-              <a>1 nov 2023</a>
-              <i class="fa-regular fa-thumbs-up">42</i>
-              <i class="fa-regular fa-comment">3</i>
+            <div class="criador">
+              <img class="img-perfil" src="img/perfil2.png" />
+              <div class="criador-info">
+                <a class="criador-nome">Pedrinho_Informatica</a>
+                <a>1 nov 2023</a>
+              </div>
+            </div>
+
+            <div class="reacoes">
+              <div class="joia">
+                <i class="fa-regular fa-thumbs-up joinha"></i>
+                <a>25.3k</a>
+              </div>
+              <div class="comentario">
+                <i class="fa-regular fa-comment comentarios "></i>
+                <a> 853</a>
+              </div>
+            </div>
           </div>
         </div>
         <!-- fim perfil criador -->
       </div>
+      <!-- Fim meme 1 -->
+
+      <!-- Inicio meme 2 -->
+      <div class="meme">
+        <img
+          class="img-meme-g"
+          src="img/meme-gato3.webp"
+          alt="Meme gatinho e games"
+        />
+
+        <!-- Inicio perfil criador -->
+        <div class="descricao">
+          <div class="perfil" style="display: flex">
+            <div class="criador">
+              <img class="img-perfil" src="img/perfil2.png" />
+              <div class="criador-info">
+                <a class="criador-nome">Pedrinho_Informatica</a>
+                <a>1 nov 2023</a>
+              </div>
+            </div>
+
+            <div class="reacoes">
+              <div class="joia">
+                <i class="fa-regular fa-thumbs-up joinha"></i>
+                <a>25.3k</a>
+              </div>
+              <div class="comentario">
+                <i class="fa-regular fa-comment comentarios "></i>
+                <a> 853</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fim perfil criador -->
     </main>
     <!-- Fim conteudo principal -->
   </body>
 
   <!-- Footer inicio -->
-  <footer>
-    <i class="fa-brands fa-instagram"></i>
-
-    <i class="fa-brands fa-tiktok"></i>
-
-    <i class="fa-brands fa-x-twitter"></i>
+  <footer class="rodape-m">
+    <div class="icones-roda">
+      
+      <i class="fa-brands fa-instagram"></i>
+  
+      <i class="fa-brands fa-tiktok"></i>
+  
+      <i class="fa-brands fa-x-twitter"></i>
+    </div>
+    <div class="copyrite">
+      <p>
+        ©2023 4Fun memes
+        
+     </p>
+    </div>
+    <div class="logo-roda">
+      
+    </div>
   </footer>
 </html>
