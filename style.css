@@ -126,7 +126,7 @@ body
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
-#menuToggle
+/* #menuToggle
 {
   display: block;
   position: relative;
@@ -251,4 +251,4 @@ body
 #menuToggle input:checked ~ ul
 {
   transform: none;
-}
+} */
