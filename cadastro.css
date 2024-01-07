@@ -86,12 +86,12 @@
     position: absolute;
     top: 0;
     right: 0;
-    color: #DFDFDF;
+    color: #f50000;
     font-size: .65rem;
     padding: .2rem .3rem;
     width: auto;
     display: block;
-    background-color: #202020;
+    background-color: #ffffff;
   }
   
   input.error {
