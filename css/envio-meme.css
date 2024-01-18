@@ -1,0 +1,9 @@
+.botao3  {
+    width: 100px;
+    height: 40px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    align-self: center;
+    color: black;
+    border-radius: 1rem;
+  }

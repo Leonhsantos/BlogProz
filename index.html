@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script
       src="https://kit.fontawesome.com/d142734101.js"
       crossorigin="anonymous"
     ></script>
-    <script src="cadastro.js" defer></script>
-    <script src="index.js" defer></script>
+    <script src="./Js/cadastro.js" defer></script>
+    <script src="./Js/index.js" defer></script>
     <title>Home</title>
   </head>
   <body>
@@ -42,79 +42,89 @@
     <!-- Inicio Conteudo principal Home -->
 
     <!-- Inicio meme 1 -->
-    <main class="main-page">
-      <div class="meme">
-        <img
-          class="img-meme"
-          src="img/meme 2.jpg"
-          alt="Meme Batman com o Robin"
-        />
+    <main  class="main-page"> 
+      <div class="principal">
 
-        <!-- Inicio perfil criador -->
-        <div class="descricao">
-          <div class="perfil" style="display: flex">
-            <div class="criador">
-              <img class="img-perfil" src="img/perfil2.png" />
-              <div class="criador-info">
-                <a class="criador-nome">Pedrinho_Informatica</a>
-                <a>1 nov 2023</a>
-              </div>
-            </div>
+        <div class="esquerda">
+         <div class="top-esquerda">
+          <button>Envie seu meme </button>
+          <a class = "favoritos-esquerda">  <i class="fa-solid fa-heart"></i> Favoritos</a>
+          <a class = "em-alta-esquerda"> <i class="fa-solid fa-fire"></i> Em alta </a>
+          <a class = "populares"> <i class="fa-solid fa-star"></i>  Populares <br>______________________ </a>
+         </div>
+          <a class = "catalogo"> Animais </a>
+          <a class = "catalogo"> Gatos </a>
+          <a class = "catalogo"> Anime </a>
+          <a class = "catalogo"> Games </a>
+          <a class = "catalogo"> Filmes </a>
+          <a class = "catalogo"> Arte </a>
+          <a class = "catalogo"> Serie </a>
+          <a class = "catalogo"> Escola </a>
+          <a class = "catalogo"> Celebridade </a>
+          <a class = "catalogo"> Shitpost </a>
+          <a class = "catalogo"> BBB 24 </a>
 
-            <div class="reacoes">
-              <div class="joia">
-                <i class="fa-regular fa-thumbs-up joinha"></i>
-                <a>25.3k</a>
+          
+        </div>
+        <div class="meme">
+          <img
+            class="img-meme"
+            src="img/memebarney.png"
+            alt="S de Swarley"
+          />
+  
+          <!-- Inicio perfil criador -->
+          
+          <div class="descricao">
+            <div class="perfil" style="display: flex">
+              <div class="criador">
+                <img class="img-perfil" src="img/perfil2.png" />
+                <div class="criador-info">
+                  <a class="criador-nome">Pedrinho_Informatica</a>
+                  <a>1 nov 2023</a>
+                </div>
               </div>
-              <div class="comentario">
-                <i class="fa-regular fa-comment comentarios "></i>
-                <a> 853</a>
+  
+              <div class="reacoes">
+                <div class="joia">
+                  <i class="fa-regular fa-thumbs-up joinha"></i>
+                  <a>25.3k</a>
+                </div>
+                <div class="comentario">
+                  <i class="fa-regular fa-comment comentarios "></i>
+                  <a> 853</a>
+                </div>
               </div>
             </div>
           </div>
+          <!-- fim perfil criador -->
         </div>
-        <!-- fim perfil criador -->
+        <div class="direita">
+        <div class="perfil-quemseguir">
+          <a class = "quem-seguir">Quem Seguir</a> 
+        </div>
+          <div class="perfil-direita">
+            <img class="img-perfil-direita" src="img/perfil.webp"/>
+            <a class="criador-nome-direita">tiaLeila</a>
+            <a class="seguir-criador">Seguir</a>
+          </div>
+          <div class="perfil-direita">
+            <img class="img-perfil-direita" src="img/perfil2.png"/>
+            <a class="criador-nome-direita">Pedrinho</a>
+            <a class="seguir-criador">Seguir</a>
+          </div>
+          <div class="perfil-direita">
+            <img class="img-perfil-direita" src="img/alalalallalon.webp"/>
+            <a class="criador-nome-direita">Carlao</a>
+            <a class="seguir-criador">Seguir</a>
+          </div>
+        </div>
+
       </div>
       <!-- Fim meme 1 -->
 
+
       <!-- Inicio meme 2 -->
-      <div class="meme">
-        <img
-          class="img-meme"
-          src="img/meme1.jpg"
-          alt="Meme Batman com o Robin"
-        />
-
-        <!-- Inicio perfil criador -->
-        <div class="descricao">
-          <div class="perfil" style="display: flex">
-            <div class="criador">
-              <img class="img-perfil" src="img/perfil2.png" />
-              <div class="criador-info">
-                <a class="criador-nome">Pedrinho_Informatica</a>
-                <a>1 nov 2023</a>
-              </div>
-            </div>
-
-            <div class="reacoes">
-              <div class="joia">
-                <i class="fa-regular fa-thumbs-up joinha"></i>
-                <a>25.3k</a>
-              </div>
-              <div class="comentario">
-                <i class="fa-regular fa-comment comentarios "></i>
-                <a> 853</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- fim perfil criador -->
-      
-
-      <!-- Fim meme 2 -->
-
-      <!-- I -->
       <div  class="meme">
         
         <a href="./busca.html">
@@ -149,21 +159,22 @@
           </div>
         </div>
         <!-- fim perfil criador -->
+        <!-- Fim meme 2 -->
       </div>
       <div class="meme">
         <img
           class="img-meme"
           src="img/meme 4.jpg"
-          alt="Meme Batman com o Robin"
+          alt="Gilberto Barros o leão"
         />
 
         <!-- Inicio perfil criador -->
         <div class="descricao">
           <div class="perfil" style="display: flex">
             <div class="criador">
-              <img class="img-perfil" src="img/perfil2.png" />
+              <img class="img-perfil" src="img/perfil.webp" />
               <div class="criador-info">
-                <a class="criador-nome">Pedrinho_Informatica</a>
+                <a class="criador-nome">tiaLeila</a>
                 <a>1 nov 2023</a>
               </div>
             </div>
@@ -182,13 +193,44 @@
         </div>
         <!-- fim perfil criador -->
       </div>
+
+      <div class="meme">
+        <img
+          class="img-meme"
+          src="img/meme1.jpg"
+          alt="Keanu Reeves"
+        />
+
+        <!-- Inicio perfil criador -->
+        <div class="descricao">
+          <div class="perfil" style="display: flex">
+            <div class="criador">
+              <img class="img-perfil" src="img/alalalallalon.webp" />
+              <div class="criador-info">
+                <a class="criador-nome">Carlao-autopeças</a>
+                <a>1 nov 2023</a>
+              </div>
+            </div>
+
+            <div class="reacoes">
+              <div class="joia">
+                <i class="fa-regular fa-thumbs-up joinha"></i>
+                <a>25.3k</a>
+              </div>
+              <div class="comentario">
+                <i class="fa-regular fa-comment comentarios "></i>
+                <a> 853</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- Fim conteudo principal -->
   </body>
 
   <!-- Footer inicio -->
   <footer class="rodape">
-    <p><a href="envio_meme.html"> Envie seu meme</a></p>
     <div class="icones-roda">
       
       <i class="fa-brands fa-instagram"></i>

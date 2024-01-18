@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap");
+@import url(./nav.css);
+@import url(./rodape.css);
+@import url(./busca.css);
+@import url(./cadastro.css);
+@import url(./longin.css);
+@import url(./memesgatos.css);
+@import url(./envio-meme.css);
+@import url(index.js);
+:root {
+  --cor-padrao: #a162f5;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f5f6f7;
+}
+/* Fim edição geral */
+
+/* INICIO MAIN PAGE */
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* FIM MAIN PAGE */
+/*INICIO CONFIGURAÇÃO GERAL MEME */
+
+.principal {
+  display: flex;
+  gap: 8rem;
+  padding-left: 8.6rem;
+}
+/* INICIO CONFIG ESQUERDA */
+.esquerda {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  gap: 1rem;
+}
+.top-esquerda {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding-bottom: 3rem;
+}
+
+.em-alta-esquerda {
+  cursor: pointer;
+}
+.em-alta-esquerda:hover {
+  color: var(--cor-padrao);
+}
+
+.favoritos-esquerda {
+  cursor: pointer;
+}
+.favoritos-esquerda:hover {
+  color: var(--cor-padrao);
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-fire {
+  color: #ff8c00;
+}
+
+.fa-star {
+  color: yellow;
+}
+
+.populares {
+  color: var(--cor-padrao);
+  padding-top: 4rem;
+}
+
+.catalogo {
+  cursor: pointer;
+}
+
+.catalogo:hover {
+  color: var(--cor-padrao);
+}
+
+button {
+  align-self: flex-start;
+  width: 12em;
+  height: 3em;
+  background: var(--cor-padrao);
+  font-family: "Roboto", sans-serif;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+/* FIM CONFIG ESQUERDA */
+
+/* INICIO CONFIG DIREITA */
+.direita {
+  background-color: rgba(128, 128, 128, 0.123);
+  height: 50vh;
+  width: 45vh;
+  padding: 2rem;
+  border-radius: 23px;
+}
+
+.quem-seguir {
+  font-family: "Roboto", sans-serif;
+  color: var(--cor-padrao);
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.perfil-quemseguir {
+  margin-bottom: 1.7rem;
+}
+
+.perfil-direita {
+  display: flex;
+  height: 6rem;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.perfil-direita:hover {
+  background-color: rgba(128, 128, 128, 0.123);
+  border-radius: 10px;
+}
+
+.img-perfil-direita {
+  border-radius: 50%;
+  height: 4.5rem;
+  width: 4.5rem;
+  cursor: pointer;
+}
+
+.criador-nome-direita {
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin-right: 6rem;
+}
+
+.seguir-criador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  height: 2rem;
+  width: 5rem;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+.seguir-criador:hover {
+  color: var(--cor-padrao);
+}
+
+/* FIM CONFIG DIREITA */
+
+/*FIM CONFIGURAÇÃO GERAL MEME */
+
+/* INICIO MEME */
+
+.meme {
+  background-color: #f5f5f5;
+  margin-bottom: 7.7rem;
+  border-radius: 1rem;
+}
+
+.img-meme {
+  width: 42rem;
+  height: 48rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  cursor: pointer;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.perfil {
+  height: 6rem;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #8875a0;
+}
+
+.img-perfil {
+  border-radius: 100%;
+  height: 4.5rem;
+  width: 4.5rem;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.criador {
+  display: flex;
+  align-items: center;
+}
+
+.criador-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.8rem;
+}
+.criador-nome {
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.descricao {
+  background-color: rgba(128, 128, 128, 0.123);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.reacoes {
+  display: flex;
+  gap: 1rem;
+  padding-right: 0.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinha {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.comentarios {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* FIM MEME */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #232323;
+  color: white;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+.required-popup::after {
+  content: "*Campo obrigatório";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #000000;
+  font-size: 0.65rem;
+  padding: 0.2rem 0.3rem;
+  width: auto;
+  display: block;
+  background-color: #ffffff;
+}
+
+input.error {
+  border: solid 2px #992020;
+  background-color: #ccbbbb;
+  color: #662020;
+}
+
+input.correct {
+  background-color: #bbccbb;
+  border: solid 2px #206620;
+  color: #206620;
+}
+
+.visible {
+  display: block;
+}

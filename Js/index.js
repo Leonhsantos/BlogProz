@@ -13,9 +13,9 @@ div.innerHTML=`
 <div class="descricao">
   <div class="perfil" style="display: flex">
     <div class="criador">
-      <img class="img-perfil" src="img/perfil2.png" />
+      <img class="img-perfil" src="img/perfil.webp" />
       <div class="criador-info">
-        <a class="criador-nome">Pedrinho_Informatica</a>
+        <a class="criador-nome">tiaLeila</a>
         <a>1 nov 2023</a>
       </div>
     </div>
