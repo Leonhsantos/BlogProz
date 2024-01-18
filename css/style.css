@@ -122,6 +122,9 @@ button:active {
   box-shadow: 0.05em 0.05em;
 }
 
+.botao-meme{
+  color: black;
+}
 /* FIM CONFIG ESQUERDA */
 
 /* INICIO CONFIG DIREITA */
